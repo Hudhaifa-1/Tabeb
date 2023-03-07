@@ -43,12 +43,12 @@
          style=" margin-top:30px ;  top:100px; font-size: 60px; position: absolute;" color="teal">
          mdi-doctor
          </v-icon>
-        <v-btn width="50" @click="loading">تخطي</v-btn>
+        <v-btn width="50" style="margin-top: 70px;" @click="loading">تخطي</v-btn>
     <v-carousel-item
     >
    <v-row
    justify="center"
-   style="margin-top: 170px;"
+   style="margin-top: 120px;"
    class="text-center"
    >
     <v-col
@@ -68,7 +68,7 @@
     >
    <v-row
    justify="center"
-   style="margin-top: 170px;"
+   style="margin-top: 120px;"
    class="text-center"
    >
     <v-col
@@ -90,7 +90,7 @@
     >
    <v-row
    justify="center"
-   style="margin-top: 170px;"
+   style="margin-top: 120px;"
    class="text-center"
    >
     <v-col
@@ -186,6 +186,16 @@ export default {
 .v-window__prev .v-btn:hover, .v-window__next .v-btn:hover {
     background: none;
     background-color: #4caf50;
+}
+
+.background{
+  background: url("@/assets/med-wal.webp");
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
 </style>

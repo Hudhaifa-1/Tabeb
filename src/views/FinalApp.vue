@@ -2,7 +2,7 @@
 
 <template>
   
-  <v-app style="padding: 0;">
+  
     <v-content style="padding: 0;" >
       <v-card>
          <v-tabs v-model="tab" background-color="teal" dark icons-and-text >
@@ -106,7 +106,7 @@
         </v-tabs-items>
       </v-card>
     </v-content>
-  </v-app>
+
 </template>
 
 <script >
