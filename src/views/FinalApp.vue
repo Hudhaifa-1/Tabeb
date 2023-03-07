@@ -5,7 +5,7 @@
   <v-app style="padding: 0;">
     <v-content style="padding: 0;" >
       <v-card>
-         <v-tabs v-model="tab" background-color="deep-purple accent-4" dark icons-and-text>
+         <v-tabs v-model="tab" background-color="teal" dark icons-and-text >
           <v-tabs-slider></v-tabs-slider>
           
           <v-tab
@@ -127,7 +127,7 @@ import LabortaryView from "./LabortaryView.vue";
 export default {
   name: "FinalApp",
   components: {
-    // HomeView,
+
     DoctorsView,
     DentistView,
     PharmisyView,
@@ -172,5 +172,15 @@ export default {
 }
 .v-list-item__content {
   flex: 1;
+}
+
+.background{
+  background: url("@/assets/med-wal.webp");
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 </style>

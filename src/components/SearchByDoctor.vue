@@ -24,7 +24,7 @@
       hide-default-footer
     >
       <template v-slot:header>
-        <v-toolbar dark color="success darken-2 " class="mb-1">
+        <v-toolbar dark color="teal " class="mb-1">
           <v-text-field
             v-model="search"
             clearable
@@ -48,10 +48,10 @@
             ></v-select>
             <v-spacer></v-spacer>
             <v-btn-toggle v-model="sortDesc" mandatory>
-              <v-btn large depressed color="success darken-1" :value="false">
+              <v-btn large depressed color="teal" :value="false">
                 <v-icon>mdi-arrow-up</v-icon>
               </v-btn>
-              <v-btn large depressed color="success darken-1" :value="true">
+              <v-btn large depressed color="teal" :value="true">
                 <v-icon>mdi-arrow-down</v-icon>
               </v-btn>
             </v-btn-toggle>
@@ -95,7 +95,7 @@
 
       <template v-slot:footer>
         <v-row class="mt-2" align="center" justify="center">
-          <span style="color:#1B5E20;">الاطباء لكل صفحة</span>
+          <span style="color:teal;">الاطباء لكل صفحة</span>
           <v-menu offset-y>
             <template v-slot:activator="{ on, attrs }">
               <v-btn dark text color="primary" class="ml-2" v-bind="attrs" v-on="on">
@@ -116,11 +116,11 @@
 
           <v-spacer></v-spacer>
 
-          <span class="mr-4" style="color: #1B5E20;">صفحة {{ page }} من {{ numberOfPages }}</span>
-          <v-btn fab dark color="success darken-2" class="mr-1" @click="formerPage">
+          <span class="mr-4" style="color: teal;">صفحة {{ page }} من {{ numberOfPages }}</span>
+          <v-btn fab dark color="teal" class="mr-1" @click="formerPage">
             <v-icon>mdi-chevron-left</v-icon>
           </v-btn>
-          <v-btn fab dark color="success darken-2" class="ml-1" @click="nextPage">
+          <v-btn fab dark color="teal" class="ml-1" @click="nextPage">
             <v-icon>mdi-chevron-right</v-icon>
           </v-btn>
         </v-row>
@@ -1798,7 +1798,7 @@ export default {
           navigator.clipboard.writeText(this.copyText);
           this.snackbar = true;
           this.snackBarText = "تم نسخ الرقم";
-          this.snackBarColor = "success";
+          this.snackBarColor = "teal";
         }
       } catch (e) {
         console.log(e);

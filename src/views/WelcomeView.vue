@@ -40,7 +40,7 @@
         <v-icon  
 
         :class="$vuetify.breakpoint.mdAndUp ? 'lrg-icon' : 'sm-icon' "
-         style=" margin-top:30px ;  top:100px; font-size: 60px; position: absolute;" color="success">
+         style=" margin-top:30px ;  top:100px; font-size: 60px; position: absolute;" color="teal">
          mdi-doctor
          </v-icon>
         <v-btn width="50" @click="loading">تخطي</v-btn>
@@ -101,7 +101,7 @@
    >
    <v-btn
     @click="loading" 
-    class="text-h5 success py-6"  
+    class="text-h5 teal py-6 white--text"  
     style="margin-top: 50px;"
     
      >ابدأ الاستخدام</v-btn>
@@ -148,7 +148,7 @@ export default {
                    navigator.clipboard.writeText(this.text);
                    this.snackbar=true
                    this.snackBarText="تم نسخ النص"
-                   this.snackBarColor="success"
+                   this.snackBarColor="teal"
  } catch (e) {
      console.log(e);
  }
@@ -169,22 +169,9 @@ export default {
 }
 
 
-// document.addEventListener('DOMContentLoaded', () => {
-  
-//   }
-// });
 </script>
 
 <style lang="scss" scoped >
-.background {
-  background: url("@/assets/medical-background7.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-}
 
 
 .lrg-icon{

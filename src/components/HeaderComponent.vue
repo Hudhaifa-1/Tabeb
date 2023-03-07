@@ -6,7 +6,7 @@
     >
       <div class="d-flex align-center">
         <v-icon
-        color="success"
+        color="teal"
         size="50"
         >mdi-ambulance</v-icon>
 

@@ -25,7 +25,7 @@
             href="https://www.instagram.com/front.end.hudhaifa/"
             target="_blank"
           >
-            <v-icon size="24px" color="success">
+            <v-icon size="24px" color="teal">
               mdi-instagram
             </v-icon>
           </v-btn>
@@ -36,7 +36,7 @@
             href="https://www.linkedin.com/in/hudhaifa-muhammad/"
             target="_blank"
           >
-            <v-icon size="24px" color="success">
+            <v-icon size="24px" color="teal">
               mdi-linkedin
             </v-icon>
           </v-btn>
@@ -47,7 +47,7 @@
             href="https://www.facebook.com/profile.php?id=100088282575804"
             target="_blank"
           >
-            <v-icon size="24px" color="success">
+            <v-icon size="24px" color="teal">
               mdi-facebook
             </v-icon>
           </v-btn>
@@ -58,7 +58,7 @@
             href="mailto:aa0411724@gmail.com?subject = Feedback&body = Message"
             target="_blank"
           >
-            <v-icon size="24px" color="success">
+            <v-icon size="24px" color="teal">
               mdi-email
             </v-icon>
           </v-btn>

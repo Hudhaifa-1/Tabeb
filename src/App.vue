@@ -13,7 +13,7 @@
     background-color: rgb(55, 57, 60);
     border-radius: 0 5px 0px 
     /* font-size: 10px;
-}"><v-icon size="30" color="success" style="    font-size: 24px;
+}"><v-icon size="30" color="teal" style="    font-size: 24px;
     position: absolute;
     top: 15px;
     z-index: 100;

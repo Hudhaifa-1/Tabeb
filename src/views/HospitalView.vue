@@ -56,16 +56,7 @@
   </script>
   
   <style>
-  .background {
-    background: url("@/assets/doc-wal.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-  }
-  
+ 
   
   </style>
   
