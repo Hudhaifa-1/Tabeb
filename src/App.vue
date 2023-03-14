@@ -1,6 +1,6 @@
 <template>
   <v-app class="app">
-    <v-contnet :class="$vuetify.breakpoint.mdAndUp ? 'larg' : 'small'">
+    <v-main :class="$vuetify.breakpoint.mdAndUp ? 'larg' : 'small'">
       <div
       dark
         class="v__div"
@@ -42,11 +42,15 @@
     color: rgb(165, 225, 195);"
         >المشاهدات</span>
       </div>
-      <keep-alive include="Home,Welcome">
+      
+      
+      <keep-alive include="FinalApp,WelcomeView">
         <router-view></router-view>
       </keep-alive>
+      
+      
       <FooterPage />
-    </v-contnet>
+    </v-main>
   </v-app>
 </template>
 

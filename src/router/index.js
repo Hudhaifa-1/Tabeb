@@ -23,6 +23,12 @@ const routes = [
     
     component: FinalApp
   },
+
+  {
+    path: '/404', name: "NotFound", component: () =>
+      import(/* webpackChunkName: "myads" */ "../views/NotFound.vue"),
+  },
+  { path: '*', redirect: '404' },
 ]
 
 const router = new VueRouter({
