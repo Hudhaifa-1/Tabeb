@@ -44,9 +44,10 @@
       </div>
       
       
-      <keep-alive include="FinalApp,WelcomeView">
+      
+      <v-main>
         <router-view></router-view>
-      </keep-alive>
+        </v-main>
       
       
       <FooterPage />

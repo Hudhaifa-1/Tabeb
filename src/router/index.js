@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import WelcomeView from '../views/WelcomeView.vue'
 import FinalApp from '../views/FinalApp.vue'
+import NotFound from "../views/NotFound.vue"
 
 Vue.use(VueRouter)
 
@@ -24,11 +25,12 @@ const routes = [
     component: FinalApp
   },
 
-  {
-    path: '/404', name: "NotFound", component: () =>
-      import(/* webpackChunkName: "myads" */ "../views/NotFound.vue"),
-  },
+  // {
+  //   path: '/404', name: "NotFound", component: () =>
+  //     import(/* webpackChunkName: "myads" */ "../views/NotFound.vue"),
+  // },
   { path: '*', redirect: '404' },
+  { path: '/:pathMatch(.*)*', component: NotFound },
 ]
 
 const router = new VueRouter({
